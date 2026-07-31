@@ -124,10 +124,10 @@ export const dictionaries: Record<Lang, Dict> = {
       quote: 'Request a Proposal',
     },
     hero: {
-      badge: ['FINISHING CONTRACTOR', 'TURKISH ENGINEERING', 'IRAQ'],
+      badge: ['FINISHING CONSTRUCTION COMPANY', 'TURKISH ENGINEERING', 'IRAQ'],
       heading: 'Lavin Group',
       slogan: 'FROM SHELL & CORE TO FINAL HANDOVER',
-      subtitle: 'THE COMPLETE FINISHING PHASE UNDER ONE SUBCONTRACT',
+      subtitle: 'THE COMPLETE FINISHING PHASE UNDER ONE CONTRACT',
       quote: 'Request a Proposal',
       projects: 'Our Projects',
       contactUs: 'Contact Us',
@@ -136,10 +136,10 @@ export const dictionaries: Record<Lang, Dict> = {
     },
     about: {
       tag: 'The Company',
-      title: 'A Specialist Finishing Works Subcontractor',
-      body: 'Lavin Group is a specialist finishing works subcontractor. We take over construction projects once the structural shell and core is complete and execute the entire finishing phase through to final handover under a single subcontract. Operating in Iraq with Turkish engineering, Turkish management and experienced Turkish site teams, we deliver the complete finishing scope of large-scale developments as one accountable execution partner — to programme, to specification and to international construction standards.',
+      title: 'A Specialist Finishing Construction Company',
+      body: 'Lavin Group is a specialist finishing construction company delivering complete finishing and interior construction works. We take over construction projects once the structural shell and core is complete and execute the entire finishing phase through to final handover under a single contract. Operating in Iraq with Turkish engineering, Turkish management and experienced Turkish site teams, we deliver the complete finishing scope of large-scale developments as one accountable execution partner — to programme, to specification and to international construction standards.',
       points: [
-        'One subcontract for the complete finishing scope',
+        'One contract for the complete finishing scope',
         'Shell and core to final handover',
         'Turkish engineering and site management',
         'International QA/QC and HSE standards',
@@ -148,24 +148,24 @@ export const dictionaries: Record<Lang, Dict> = {
     mission: {
       tag: 'Mission',
       title: 'Complete Finishing Execution, Single Accountability',
-      body: 'To execute the complete finishing phase of major construction projects under one integrated subcontract — with disciplined planning, technical control and measurable quality — so that developers and main contractors hold a single accountable partner from shell completion to handover.',
+      body: 'To execute the complete finishing phase of major construction projects under one integrated contract — with disciplined planning, technical control and measurable quality — so that developers and main contractors hold a single accountable partner from shell completion to handover.',
     },
     vision: {
       tag: 'Vision',
       title: 'The Region’s Reference Finishing Contractor',
-      body: 'To be recognised across Iraq and the wider region as the reference subcontractor for large-scale finishing works, defined by execution capacity, engineering discipline and consistent delivery performance.',
+      body: 'To be recognised across Iraq and the wider region as the reference finishing construction company for large-scale finishing and interior construction works, defined by execution capacity, engineering discipline and consistent delivery performance.',
     },
     execution: {
       tag: 'How We Work',
       title: 'Our Execution Model',
-      lead: 'Our preferred approach is to undertake the complete finishing scope of a project — from shell completion to final handover — under a single subcontract.',
+      lead: 'Our preferred approach is to undertake the complete finishing scope of a project — from shell completion to final handover — under a single contract.',
       body: 'However, every project follows its own procurement strategy. When required, Lavin Group also undertakes the agreed finishing work packages or selected finishing scopes while maintaining the same standards of quality, technical excellence, project coordination, safety and reliable execution.',
       closing:
         'Whether entrusted with the complete finishing scope or selected agreed work packages, our commitment remains exactly the same.',
       items: [
         {
           title: 'Complete Finishing Scope',
-          desc: 'Our first priority on every project: the entire finishing phase delivered under one subcontract, with one programme, one interface and one accountable partner.',
+          desc: 'Our first priority on every project: the entire finishing phase delivered under one contract, with one programme, one interface and one accountable partner.',
         },
         {
           title: 'Flexible Project Integration',
@@ -181,11 +181,11 @@ export const dictionaries: Record<Lang, Dict> = {
       tag: 'Scope of Works',
       title: 'The Complete Finishing Phase, Under One Contract',
       subtitle:
-        'One integrated subcontract covering every stage of execution from shell completion to final handover.',
+        'One integrated contract covering every stage of execution from shell completion to final handover.',
       items: [
         {
           title: 'Integrated Finishing Package',
-          desc: 'The entire finishing scope executed under a single subcontract, with one point of responsibility and one coordinated programme.',
+          desc: 'The entire finishing scope executed under a single contract, with one point of responsibility and one coordinated programme.',
         },
         {
           title: 'Planning & Programme Control',
@@ -258,12 +258,12 @@ export const dictionaries: Record<Lang, Dict> = {
     ],
     why: {
       tag: 'Why Lavin Group',
-      title: 'A Subcontractor Main Contractors Can Rely On',
+      title: 'A Finishing Partner Main Contractors Can Rely On',
       subtitle: 'The criteria that matter to developers, consultants and main contractors.',
       items: [
         {
           title: 'Single-Point Accountability',
-          desc: 'One subcontract, one interface and one responsible party for the complete finishing scope.',
+          desc: 'One contract, one interface and one responsible party for the complete finishing scope.',
         },
         {
           title: 'Turkish Engineering',
@@ -369,7 +369,7 @@ export const dictionaries: Record<Lang, Dict> = {
     map: { tag: 'Head Office', title: 'Our Location' },
     footer: {
       about:
-        'Specialist finishing works subcontractor executing the complete finishing phase of major construction projects in Iraq — from shell and core to final handover.',
+        'Specialist finishing construction company executing the complete finishing and interior construction phase of major projects in Iraq — from shell and core to final handover.',
       quickLinks: 'Quick Links',
       ourServices: 'Scope of Works',
       contact: 'Contact',
@@ -389,10 +389,10 @@ export const dictionaries: Record<Lang, Dict> = {
       quote: 'طلب عرض فني ومالي',
     },
     hero: {
-      badge: ['مقاول تشطيبات', 'هندسة تركية', 'العراق'],
-      heading: 'مجموعة لافين',
+      badge: ['شركة متخصصة في أعمال التشطيبات والإنشاءات الداخلية', 'الهندسة التركية', 'العراق'],
+      heading: 'مجموع�� لافين',
       slogan: 'من الهيك�� الإنشائي إلى التسليم النهائي',
-      subtitle: 'مرحلة التشطيبات الكاملة بعقد مقاولة ثانوية واحد',
+      subtitle: 'مرحلة التشطيبات الكاملة بعقد واحد',
       quote: 'طلب عرض فني ومالي',
       projects: 'مشاريعنا',
       contactUs: 'تواصل معنا',
@@ -401,8 +401,8 @@ export const dictionaries: Record<Lang, Dict> = {
     },
     about: {
       tag: 'الشركة',
-      title: 'مقاول ثانوي متخصص في أعمال التشطيبات',
-      body: 'مجموعة لافين هي مقاول ثانوي متخصص في أعمال التشطيبات. نتولّى المشاريع بعد اكتمال الهيكل الإنشائي والأعمال الأساسية، وننفّذ مرحلة التشطيبات بالكامل حتى التسليم النهائي بموجب عقد مقاولة ثانوية واحد. نعمل في العراق بهندسة تركية وإدارة تركية وفرق تنفيذ تركية ذات خبرة، ونقدّم نطاق التشطيبات الكامل للمشاريع الكبرى كشريك تنفيذ واحد مسؤول — وفق البرنامج الزمني والمواصفات والمعايير الإنشائية الدولية.',
+      title: 'شركة متخصصة في أعمال التشطيبات والإنشاءات الداخلية',
+      body: 'مجموعة لافين شركة متخصصة في أعمال التشطيبات والإنشاءات الداخلية المتكاملة. نتولّى المشاريع بعد اكتمال الهيكل الإنشائي والأعمال الأساسية، وننفّذ مرحلة التشطيبات بالكامل حتى التسليم النهائي بموجب عقد واحد. نعمل في العراق بهندسة تركية وإدارة تركية وفرق تنفيذ تركية ذات خبرة، ونقدّم نطاق التشطيبات الكامل للمشاريع الكبرى كشريك تنفيذ واحد مسؤول — وفق البرنامج الزمني والمواصفات والمعايير الإنشائية الدولية.',
       points: [
         'عقد واحد لنطاق التشطيبات الكامل',
         'من الهيكل الإنشائي إلى التسليم النهائي',
@@ -653,7 +653,7 @@ export const dictionaries: Record<Lang, Dict> = {
       quote: 'Teklif Talebi',
     },
     hero: {
-      badge: ['İNCE İŞLER TAŞERONU', 'TÜRK MÜHENDİSLİĞİ', 'IRAK'],
+      badge: ['İNCE İNŞAAT VE FİNİSHİNG FİRMASI', 'TÜRK MÜHENDİSLİĞİ', 'IRAK'],
       heading: 'Lavin Group',
       slogan: 'KABA YAPIDAN NİHAİ TESLİME',
       subtitle: 'TÜM İNCE İŞLER AŞAMASI TEK TAŞERONLUK SÖZLEŞMESİYLE',

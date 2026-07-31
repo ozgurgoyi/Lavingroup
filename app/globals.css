@@ -86,6 +86,18 @@
   [dir='rtl'] .flip-rtl {
     transform: scaleX(-1);
   }
+  /* Arabic typography: when the document is in Arabic, render every text
+     surface with the fully Unicode-compatible Cairo Arabic font. Inter
+     (font-sans) and Playfair (font-serif) contain no Arabic glyphs, so
+     without this rule Arabic would fall back to inconsistent system fonts
+     across Chrome/Safari/Firefox/Edge and Android/iOS — the root cause of
+     broken or mismatched Arabic lettering. The descendant selectors override
+     the .font-sans/.font-serif/.font-mono utilities (higher specificity) so
+     headings and body alike use Cairo in Arabic. */
+  html[lang='ar'],
+  html[lang='ar'] :is(body, .font-sans, .font-serif, .font-mono) {
+    font-family: var(--font-arabic);
+  }
   /* Viewport-height fallback: the Hero uses `min-h-[100svh]` (small viewport
      height) which every modern engine supports and which keeps the section
      stable while the mobile address bar collapses. Only where small-viewport
